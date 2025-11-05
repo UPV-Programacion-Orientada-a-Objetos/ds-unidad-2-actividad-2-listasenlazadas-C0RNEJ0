@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Función principal." alt="" coords="5,132,60,159"/>
+<area shape="rect" id="node2" href="$classSerialPort.html#a6d6e9bd63e0a683bb486c51e2cfe8f1a" title="Verifica si el puerto está conectado." alt="" coords="127,5,317,32"/>
+<area shape="rect" id="node3" href="$classListaDeCarga.html#aa0af33b8e6ea9536cd7849bd373cfdb0" title="Obtiene el tamaño de la lista." alt="" coords="127,56,317,83"/>
+<area shape="rect" id="node4" href="$classListaDeCarga.html#a90f5187002875f9a4bc856db5d86ff35" title="Imprime el mensaje completo almacenado." alt="" coords="108,107,336,133"/>
+<area shape="rect" id="node5" href="$classSerialPort.html#ac937b3ef186172a95c103dfc919d014e" title="Lee una línea del puerto serial." alt="" coords="145,157,299,184"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ab9e312e9d2e520ed6acbdb51b40024f3" title="Este programa lee tramas del protocolo PRT&#45;7 desde un puerto serial y decodifica el mensaje oculto ut..." alt="" coords="167,208,277,235"/>
+<area shape="rect" id="node7" href="$classTramaBase.html#a7adf0eea6b0eb612f7eeabac637c50a9" title="Método virtual puro para procesar la trama." alt="" coords="143,259,301,285"/>
+</map>

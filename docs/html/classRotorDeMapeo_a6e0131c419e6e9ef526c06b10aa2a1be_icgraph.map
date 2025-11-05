@@ -1,0 +1,4 @@
+<map id="RotorDeMapeo::calcularDistancia" name="RotorDeMapeo::calcularDistancia">
+<area shape="rect" id="node1" title="Calcula la distancia entre dos nodos." alt="" coords="245,5,484,32"/>
+<area shape="rect" id="node2" href="$classRotorDeMapeo.html#a70d4ad4bcef4bd5cec9c8d2602859f5c" title="Mapea un carácter según la rotación actual." alt="" coords="5,5,197,32"/>
+</map>

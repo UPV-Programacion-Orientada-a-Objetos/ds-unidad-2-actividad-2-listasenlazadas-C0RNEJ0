@@ -1,0 +1,4 @@
+<map id="TramaLoad" name="TramaLoad">
+<area shape="rect" id="node1" title="Representa una trama de carga que contiene un carácter a decodificar." alt="" coords="6,80,99,107"/>
+<area shape="rect" id="node2" href="$classTramaBase.html" title="Clase base abstracta que define la interfaz para todas las tramas." alt="" coords="5,5,100,32"/>
+</map>

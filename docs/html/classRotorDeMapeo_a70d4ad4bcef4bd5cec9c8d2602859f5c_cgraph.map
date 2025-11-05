@@ -1,0 +1,5 @@
+<map id="RotorDeMapeo::getMapeo" name="RotorDeMapeo::getMapeo">
+<area shape="rect" id="node1" title="Mapea un carácter según la rotación actual." alt="" coords="5,31,197,57"/>
+<area shape="rect" id="node2" href="$classRotorDeMapeo.html#a6e0131c419e6e9ef526c06b10aa2a1be" title="Calcula la distancia entre dos nodos." alt="" coords="245,5,484,32"/>
+<area shape="rect" id="node3" href="$classRotorDeMapeo.html#a2af82f08a8615bfa82d67410d1c09aee" title="Encuentra un nodo por su carácter." alt="" coords="253,56,476,83"/>
+</map>

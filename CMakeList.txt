@@ -1,0 +1,65 @@
+cmake_minimum_required(VERSION 3.10)
+project(PRT7_Decoder VERSION 1.0 LANGUAGES CXX)
+
+# Establecer el estándar de C++
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Directorios de inclusión
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+# Archivos fuente
+set(SOURCES
+    src/main.cpp
+    src/TramaLoad.cpp
+    src/TramaMap.cpp
+    src/RotorDeMapeo.cpp
+    src/ListaDeCarga.cpp
+    src/SerialPort.cpp
+)
+
+# Archivos de encabezado
+set(HEADERS
+    include/TramaBase.h
+    include/TramaLoad.h
+    include/TramaMap.h
+    include/RotorDeMapeo.h
+    include/ListaDeCarga.h
+    include/SerialPort.h
+)
+
+# Crear el ejecutable
+add_executable(prt7_decoder ${SOURCES} ${HEADERS})
+
+# Opciones de compilación
+if(MSVC)
+    target_compile_options(prt7_decoder PRIVATE /W4)
+else()
+    target_compile_options(prt7_decoder PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+# Configuración específica de plataforma
+if(WIN32)
+    message(STATUS "Configurando para Windows")
+    # No se requieren bibliotecas adicionales en Windows
+else()
+    message(STATUS "Configurando para Linux/Unix")
+    # No se requieren bibliotecas adicionales en Linux
+endif()
+
+# Instalación
+install(TARGETS prt7_decoder DESTINATION bin)
+
+# CPack para crear paquetes redistribuibles
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+set(CPACK_GENERATOR "ZIP;TGZ")
+include(CPack)
+
+# Información de compilación
+message(STATUS "===========================================")
+message(STATUS "Proyecto: ${PROJECT_NAME}")
+message(STATUS "Versión: ${PROJECT_VERSION}")
+message(STATUS "Compilador: ${CMAKE_CXX_COMPILER_ID}")
+message(STATUS "Estándar C++: ${CMAKE_CXX_STANDARD}")
+message(STATUS "===========================================")

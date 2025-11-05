@@ -1,0 +1,5 @@
+<map id="TramaBase" name="TramaBase">
+<area shape="rect" id="node1" title="Clase base abstracta que define la interfaz para todas las tramas." alt="" coords="62,5,157,32"/>
+<area shape="rect" id="node2" href="$classTramaLoad.html" title="Representa una trama de carga que contiene un carácter a decodificar." alt="" coords="5,80,99,107"/>
+<area shape="rect" id="node3" href="$classTramaMap.html" title="Representa una trama de mapeo que modifica la rotación del rotor." alt="" coords="123,80,213,107"/>
+</map>

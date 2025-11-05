@@ -1,0 +1,4 @@
+<map id="RotorDeMapeo" name="RotorDeMapeo">
+<area shape="rect" id="node1" title="Lista circular doblemente enlazada que actúa como disco de cifrado." alt="" coords="5,97,124,124"/>
+<area shape="rect" id="node2" href="$structNodoRotor.html" title="Nodo de la lista circular doblemente enlazada." alt="" coords="19,7,110,33"/>
+</map>
